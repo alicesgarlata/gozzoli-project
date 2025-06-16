@@ -41,7 +41,7 @@
   <div class="w3-row">
     <div class="w3-col m12">
       <div class="w3-card w3-white w3-round w3-margin-bottom w3-padding">
-        <h1><b>Challenges</b>></h1>
+        <h1><b>Challenges</b></h1>
         <h2>FIRST CHALLENGE: ChatGPT and Gemini were not able to find the URI of Benozzo Gozzoli on ArCo</h2>
         <p><u>How was this discovered?</u>
         We asked ChatGPT to create a SPARQL query to find Benozzo Gozzoli’s URI, which we needed to find the cultural properties associated with him on ArCo. This investigation led to no results since, according to ChatGPT, there is no URI for Benozzo Gozzoli on the ArCo knowledge graph. 
@@ -62,7 +62,7 @@ WHERE {
   FILTER(CONTAINS(LCASE(STR(?label)), "benozzo gozzoli"))
 }
 LIMIT 100
-</pre>
+  </code></pre>
       <h3><b>2. Search using free text properties, such as descriptions or notes</b></h3>
           If the dataset has properties such as dc:description or other free text properties, you can search there as well. 
         <h3><b>3. Search by subject or topic</b></h3>
